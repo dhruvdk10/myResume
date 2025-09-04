@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dhruv Kapoor — Resume</title>
+
+    <!-- Bootstrap 5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+      html,
+      body {
+        background: #f4f7ff;
+        color: #1d2233;
+      }
+
+      .resume-wrap {
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 10px 30px rgba(24, 32, 79, .08);
+      }
+
+      /* Left sidebar */
+      .sidebar {
+        background: #002330;
+        color: #ffffff;
+        padding: 28px 22px;
+        width: 280px;
+        position: relative;
+      }
+
+      .photo-wrap {
+        width: 140px;
+        height: 140px;
+        margin: 4px auto 18px;
+        position: relative;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+      }
+
+      .avatar {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: none;
+        object-fit: cover;
+        background: #fff;
+      }
+
+      .side-title {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 40px;
+      }
+
+      .side-title span {
+        font-weight: 600;
+        font-size: 19px;
+        position: relative;
+        padding-bottom: 7px;
+      }
+
+      .side-title span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 210px;
+        height: 0.5px;
+        background-color: #a3a5b1;
+      }
+
+
+      .side-list {
+        margin: 0;
+        padding-left: 0;
+        list-style: none
+      }
+
+      .side-list li {
+        display: flex;
+        padding-left: 15px;
+        gap: .5rem;
+        align-items: flex-start;
+        margin-bottom: .4rem;
+        font-size: 14px;
+        opacity: 0.9;
+      }
+
+      .side-list .bi {
+        font-size: 14px;
+        opacity: .8;
+      }
+
+      /* Right content */
+      .content {
+        padding: 28px 26px
+      }
+
+      .name {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+      }
+
+      .role {
+        font-weight: 600;
+        margin-bottom: 14px;
+        color: #808080;
+      }
+
+      .top-strip {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        align-items: center;
+        padding: 12px 0 6px;
+        border-bottom: 1px solid var(--line);
+        margin-bottom: 18px;
+      }
+
+      .top-item {
+        display: flex;
+        align-items: center;
+        gap: .55rem;
+        color: var(--muted);
+        font-size: 14px
+      }
+
+      .top-item .bi {
+        font-size: 16px;
+        color: var(--ink)
+      }
+
+      .section {
+        margin-top: 18px
+      }
+
+      .section-title {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 35px;
+      }
+
+      .section-title span {
+        font-weight: 700;
+        font-size: 20px;
+        position: relative;
+        padding-bottom: 7px;
+        /* Space for the line */
+      }
+
+      .section-title span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 590px;
+        height: 0.5px;
+        background-color: #a3a5b1;
+      }
+
+      .summary {
+        margin-top: 10px;
+        color: #30364b;
+        padding-left: 15px;
+        font-size: 15px;
+      }
+
+      .pill {
+        display: inline-block;
+        background: #00233019;
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 10px 20px;
+      }
+
+      .edu-line {
+        margin-left: 15px;
+        margin-bottom: 15px;
+      }
+
+      .details {
+        margin-left: 15px;
+        font-weight: 600;
+      }
+
+      ul li::marker {
+        content: "•";
+        color: #002330;
+        font-size: 15px;
+      }
+
+      .section ul li {
+        text-indent: 4px;
+        font-size: 15px;
+        /* pull bullet left slightly if needed */
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container px-0">
+      <div class="resume-wrap row g-0">
+        <!-- LEFT: Sidebar -->
+        <aside class="col-12 col-md-4 sidebar">
+          <div class="photo-wrap">
+            <!-- Replace src with your photo path -->
+            <img class="avatar" src="C:\Users\dhruv\OneDrive\Desktop\Web Development\Web Designing\myResume\myimage1.jpeg" alt="Dhruv Kapoor">
+          </div>
+
+          <div class="side-title"><i class="bi bi-stars fs-4"></i><span>Key skills</span></div>
+          <ul class="side-list mt-3">
+            <li><i class="bi bi-check2-circle"></i> HTML &amp; CSS</li>
+            <li><i class="bi bi-check2-circle"></i> JavaScript</li>
+            <li><i class="bi bi-check2-circle"></i> Bootstrap 5</li>
+            <li><i class="bi bi-check2-circle"></i> JQuery</li>
+            <li><i class="bi bi-check2-circle"></i> Git &amp; GitHub</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-person-badge-fill fs-4"></i><span> Personal Information</span></div>
+          <ul class="side-list mt-3">
+            <li><i class="bi bi-telephone"></i> +91 9667480693</li>
+            <li><i class="bi bi-envelope"></i> dhruvkapoor200210@gmail.com</li>
+            <li><i class="bi bi-geo-alt"></i> Gurugram, India</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-emoji-smile-fill fs-4"></i><span> Hobbies</span></div>
+          <ul class="side-list mt-3">
+            <li><i class="bi bi-dribbble"></i> Football</li>
+            <li><i class="bi bi-joystick"></i> Chess</li>
+            <li><i class="bi bi-code-slash"></i> Coding</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-translate fs-4"></i><span> Languages</span></div>
+          <ul class="side-list mt-3">
+            <li><i class="bi bi-chat-dots"></i> English</li>
+            <li><i class="bi bi-chat-dots"></i> Hindi</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-link-45deg fs-4"></i><span> Social links</span></div>
+          <ul class="side-list mt-3">
+            <li><i class="bi bi-linkedin"></i> <a href="#" target="_blank" style="text-decoration: none; color: white;">dhruv-kapoor-003849212</a></li>
+            <li><i class="bi bi-github"></i> <a href="#" target="_blank" style="text-decoration: none; color: white;">dhruvdk10</a></li>
+          </ul>
+        </aside>
+
+        <!-- RIGHT: Main content -->
+        <main class="col-12 col-md-8 content">
+          <div class="name">Dhruv Kapoor</div>
+          <div class="role">Fresher Web Developer</div>
+
+          <!-- Profile Summary -->
+          <section class="section ">
+            <div class="section-title"><i class="bi bi-person fs-3"></i><span> Profile Summary</span></div>
+            <p class="summary">
+              A BBA graduate and self-taught front-end web developer, passionate about creating responsive,
+              user-friendly websites. Currently pursuing a certified web development course from Croma Campus with hands-on
+              experience in HTML, CSS & JavaScript. My current focus is on building a career in front-end development. I bring a blend of creativity,
+              technical proficiency, and communication skills, eager to contribute to dynamic web projects and grow as a developer.
+            </p>
+          </section>
+
+          <!-- Education -->
+          <section class="section">
+            <div class="section-title"><i class="bi bi-book fs-3"></i><span>Education</span></div>
+
+            <div class="pill">September 2023</div>
+            <div class="details">
+              <i class="bi bi-mortarboard-fill me-2"></i>Jagannath International Management School, Vasant Kunj, Delhi
+            </div>
+            <ul class="ms-2" style="list-style-type:lower-roman;">
+              <li>Degree: BBA (General)</li>
+              <li>Activity: Football</li>
+            </ul>
+
+            <!-- CBSE School -->
+            <div class="pill">March 2020</div>
+            <div class="details">
+              <i class="bi bi-building-fill me-2"></i>Salwan Public School, Old Rajinder Nagar, Delhi
+            </div>
+            <ul class="ms-2">
+              <li>Stream: Commerce</li>
+              <li>Board: CBSE</li>
+            </ul>
+          </section>
+
+          <section class="section">
+            <div class="section-title"><i class="bi bi-journal-code fs-3"></i><span> Courses</span></div>
+            <div class="pill">June - August 2025</div>
+            <div class="details"><i class="bi bi-palette-fill me-2"></i>Web Designing</div>
+            <ul class="ms-2">
+              <li>Completed a structured course in modern web design</li>
+              <li>Covered HTML5, CSS3, JavaScript, Responsive Design, Bootstrap</li>
+              <li>Built real-world projects including a sports academy website</li>
+            </ul>
+
+            <div class="pill">August 2025 - Present</div>
+            <div class="details"><i class="bi bi-lightning-charge-fill me-1"></i> MERN Stack Development</div>
+            <ul class="ms-2">
+              <li>Currently learning MongoDB, Express.js, React.js, Node.js</li>
+              <li>Hands-on practice with full-stack project workflows</li>
+              <li>Exploring API integration and deployment methods</li>
+            </ul>
+          </section>
+
+          <!-- Projects -->
+          <section class="section">
+            <div class="section-title"><i class="bi bi-briefcase fs-3"></i><span>Projects</span></div>
+
+            <div class="pill">1 Month</div>
+            <div class="details"><i class="bi bi-trophy-fill me-2"></i>Football Academy — Sports Responsive Website</div>
+            <ul class="ms-2">
+              <li>Built with HTML5 and CSS3 (multi-page static website)</li>
+              <li>Fully responsive design for desktop and mobile</li>
+              <li>Sections: Home, About Us, Highlights, Contact Us</li>
+            </ul>
+
+            <div class="pill">20 Days</div>
+            <div class="details"><i class="bi bi-bag-check-fill me-2"></i>Cartzon — E-Commerce Frontend Website</div>
+            <ul class="ms-2">
+              <li>Developed using HTML5, CSS3, Bootstrap</li>
+              <li>Replicates shopping platform UI</li>
+              <li>Includes dashboard, custom footer, responsive grids</li>
+            </ul>
+
+            <div class="pill">15 Days</div>
+            <div class="details"><i class="bi bi-play-circle-fill me-2"></i>vibe. — Entertainment Website</div>
+            <ul class="ms-2">
+              <li>Built with HTML, CSS, JS, Bootstrap</li>
+              <li>Includes responsive carousels, toggle menu</li>
+              <li>Dynamic content sections (Must Watch, Romantic Hits, etc.)</li>
+            </ul>
+
+
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
