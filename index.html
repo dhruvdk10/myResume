@@ -3,273 +3,292 @@ This code is not licensed for reuse or redistribution. -->
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dhruv Kapoor — Resume</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dhruv Kapoor — Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-  <style>
-    html, body {
-      background: #f4f7ff;
-      color: #1d2233;
-    }
-    .resume-wrap {
-      max-width: 1000px;
-      margin: auto;
-      overflow: hidden;
-      background: #fff;
-      box-shadow: 0 10px 30px rgba(24, 32, 79, .08);
-    }
-    .sidebar {
-      background: #002330;
-      color: #ffffff;
-      padding: 28px 22px;
-      width: 280px;
-    }
-    .photo-wrap {
-      width: 140px;
-      height: 140px;
-      margin: 4px auto 18px;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-    }
-    .avatar {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      background: #fff;
-    }
-    .side-title {
-      display: flex;
-      align-items: center;
-      gap: .5rem;
-      margin-top: 40px;
-    }
-    .side-title span {
-      font-weight: 600;
-      font-size: 19px;
-      position: relative;
-      padding-bottom: 7px;
-    }
-    .side-title span::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 210px;
-      height: .5px;
-      background-color: #a3a5b1;
-    }
-    .side-list {
-      list-style: none;
-      padding-left: 0;
-      margin: 0;
-    }
-    .side-list li {
-      display: flex;
-      gap: .5rem;
-      font-size: 14px;
-      margin-bottom: .4rem;
-      opacity: .9;
-    }
-    .content {
-      padding: 28px 26px;
-    }
-    .name {
-      font-size: 38px;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    .role {
-      font-weight: 600;
-      color: #808080;
-      margin-bottom: 14px;
-    }
-    .section-title {
-      display: flex;
-      align-items: center;
-      gap: .5rem;
-      margin-top: 35px;
-    }
-    .section-title span {
-      font-weight: 700;
-      font-size: 20px;
-      padding-bottom: 7px;
-      position: relative;
-    }
-    .section-title span::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 590px;
-      height: .5px;
-      background-color: #a3a5b1;
-    }
-    .summary {
-      margin-top: 10px;
-      font-size: 15px;
-      color: #30364b;
-      padding-left: 17px;
-    }
-    .pill {
-      display: inline-block;
-      background: #00233019;
-      padding: 8px 14px;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 14px;
-      margin: 10px 17px;
-    }
-    .details {
-      margin-left: 15px;
-      font-weight: 600;
-    }
-    ul li::marker {
-      content: "•";
-      color: #002330;
-    }
-    @media (max-width: 991px) {
-      .sidebar {
-        width: 100%;
+    <style>
+      html,
+      body {
+        background: #f4f7ff;
+        color: #1d2233;
       }
-    }
-  </style>
-</head>
 
-<body>
+      .resume-wrap {
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 10px 30px rgba(24, 32, 79, .08);
+      }
 
-<div class="container px-0">
-  <div class="resume-wrap row g-0">
+      .sidebar {
+        background: #002330;
+        color: #ffffff;
+        padding: 28px 22px;
+        width: 280px;
+      }
 
-    <!-- SIDEBAR -->
-    <aside class="col-12 col-md-4 sidebar">
-      <div class="photo-wrap">
-        <img src="myimage1.jpeg" class="avatar" alt="Dhruv Kapoor">
+      .photo-wrap {
+        width: 140px;
+        height: 140px;
+        margin: 4px auto 18px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+      }
+
+      .avatar {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        background: #fff;
+      }
+
+      .side-title {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-top: 40px;
+      }
+
+      .side-title span {
+        font-weight: 600;
+        font-size: 19px;
+        position: relative;
+        padding-bottom: 7px;
+      }
+
+      .side-title span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 210px;
+        height: .5px;
+        background-color: #a3a5b1;
+      }
+
+      .side-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+      }
+
+      .side-list li {
+        display: flex;
+        gap: .5rem;
+        font-size: 14px;
+        margin-bottom: .4rem;
+        margin-left: 5px;
+        opacity: .9;
+      }
+
+      .content {
+        padding: 28px 26px;
+      }
+
+      .name {
+        font-size: 38px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .role {
+        font-weight: 600;
+        color: #808080;
+        margin-bottom: 14px;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-top: 35px;
+      }
+
+      .section-title span {
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 7px;
+        position: relative;
+      }
+
+      .section-title span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 590px;
+        height: .5px;
+        background-color: #a3a5b1;
+      }
+
+      .summary {
+        margin-top: 10px;
+        font-size: 15px;
+        color: #30364b;
+        padding-left: 17px;
+      }
+
+      .pill {
+        display: inline-block;
+        background: #00233019;
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 10px 17px;
+      }
+
+      .details {
+        margin-left: 15px;
+        font-weight: 600;
+      }
+
+      ul li::marker {
+        content: "•";
+        color: #002330;
+      }
+
+      @media (max-width: 991px) {
+        .sidebar {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container px-0">
+      <div class="resume-wrap row g-0">
+
+        <!-- SIDEBAR -->
+        <aside class="col-12 col-md-4 sidebar">
+          <div class="photo-wrap">
+            <img src="myimage1.jpeg" class="avatar" alt="Dhruv Kapoor">
+          </div>
+
+          <div class="side-title"><i class="bi bi-stars fs-4"></i><span>Core Skills</span></div>
+          <ul class="side-list mt-3">
+            <li>Web Designing</li>
+            <li>Front End Development</li>
+            <li>Backend Development</li>
+            <li>Responsive & Mobile-First Design</li>
+            <li>Cross-Browser Compatibility</li>
+            <li>Performance Optimization</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-tools fs-4"></i><span>Technical Skills</span></div>
+          <ul class="side-list mt-3">
+            <li>HTML5, CSS3, JavaScript (ES6+)</li>
+            <li>React.js, Bootstrap 5, jQuery</li>
+            <li>Git & GitHub</li>
+            <li>Node.js, Express.js, MongoDB</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-person-badge-fill fs-4"></i><span>Personal Info</span></div>
+          <ul class="side-list mt-3">
+            <li><i class="bi bi-telephone"></i> +91 9667480693</li>
+            <li><i class="bi bi-envelope"></i> dhruvkapoor200210@gmail.com</li>
+            <li><i class="bi bi-geo-alt"></i> Gurugram, India</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-link-45deg fs-4"></i><span>Links</span></div>
+          <ul class="side-list mt-3">
+            <li>GitHub: dhruv-kapoor-dk10</li>
+            <li>Portfolio: dhruvdk10</li>
+          </ul>
+
+          <div class="side-title"><i class="bi bi-translate fs-4"></i><span>Languages</span></div>
+          <ul class="side-list mt-3">
+            <li>English</li>
+            <li>Hindi</li>
+          </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="col-12 col-md-8 content">
+          <div class="name">Dhruv Kapoor</div>
+          <div class="role">Entry-Level MERN Stack Developer</div>
+
+          <section>
+            <div class="section-title"><i class="bi bi-person fs-3"></i><span>Professional Summary</span></div>
+            <p class="summary">
+              Creative and detail-oriented Entry-Level MERN Stack Developer with a strong foundation in web design, full-stack development, responsive design, and modern JavaScript frameworks. Experienced in building user-friendly, accessible, and performance-optimized web applications. Skilled in HTML5, CSS3, JavaScript, React, and Bootstrap, with working knowledge of MongoDB, Express.js, Node.js, and RESTful APIs. Actively seeking opportunities as a MERN Stack Developer, Full Stack Developer, or Web Developer.
+            </p>
+          </section>
+
+          <section>
+            <div class="section-title"><i class="bi bi-briefcase fs-3"></i><span>Project Experience</span></div>
+
+            <div class="pill">1 Month</div>
+            <div class="details">Football Academy Website — Frontend Website</div>
+            <ul class="ms-2">
+              <li>Designed and developed a responsive multi-page website using HTML5 and CSS3</li>
+              <li>Implemented mobile-first layout and cross-device compatibility</li>
+              <li>Improved navigation with structured content and intuitive UI</li>
+            </ul>
+
+            <div class="pill">20 Days</div>
+            <div class="details">Cartzon — E-Commerce Frontend Website</div>
+            <ul class="ms-2">
+              <li>Designed UI components and responsive grids using Bootstrap</li>
+              <li>Focused on usability, visual hierarchy, and consistency</li>
+            </ul>
+
+            <div class="pill">1 Month</div>
+            <div class="details">vibe. — Entertainment Platform - Full Stack Website</div>
+            <ul class="ms-2">
+              <li>Built dynamic frontend using React, HTML, CSS, and JavaScript</li>
+              <li>Designed UX flows for login/signup and content browsing</li>
+              <li>Integrated backend authentication with Node.js, Express, MongoDB</li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="section-title"><i class="bi bi-award fs-3"></i><span>Certifications</span></div>
+
+            <div class="pill">Jun 2025 – Aug 2025</div>
+            <div class="details">Web Designing — Croma Campus</div>
+            <ul class="ms-2">
+              <li>HTML5, CSS3, Bootstrap, JavaScript</li>
+            </ul>
+
+            <div class="pill">Aug 2025 – Dec 2025</div>
+            <div class="details">MERN Stack Development — Croma Campus</div>
+            <ul class="ms-2">
+              <li>MongoDB, Express.js, React.js, Node.js</li>
+              <li>REST APIs, authentication, deployments</li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="section-title"><i class="bi bi-book fs-3"></i><span>Education</span></div>
+
+            <div class="pill">September 2023</div>
+            <div class="details">Bachelor of Business Administration (BBA) — General</div>
+            <ul class="ms-2">
+              <li>Jagannath International Management School, Vasant Kunj, Delhi</li>
+            </ul>
+
+            <div class="pill">March 2020</div>
+            <div class="details">Senior Secondary — Commerce with Mathematics</div>
+            <ul class="ms-2">
+              <li>Salwan Public School, Old Rajinder Nagar, Delhi (CBSE)</li>
+            </ul>
+          </section>
+
+        </main>
       </div>
+    </div>
 
-      <div class="side-title"><i class="bi bi-stars fs-4"></i><span>Core Skills</span></div>
-      <ul class="side-list mt-3">
-        <li>Web Designing</li>
-        <li>Front End Development</li>
-        <li>Backend Development</li>
-        <li>Responsive & Mobile-First Design</li>
-        <li>Cross-Browser Compatibility</li>
-        <li>Performance Optimization</li>
-      </ul>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 
-      <div class="side-title"><i class="bi bi-tools fs-4"></i><span>Technical Skills</span></div>
-      <ul class="side-list mt-3">
-        <li>HTML5, CSS3, JavaScript (ES6+)</li>
-        <li>React.js, Bootstrap 5, jQuery</li>
-        <li>Git & GitHub</li>
-        <li>Node.js, Express.js, MongoDB</li>
-      </ul>
-
-      <div class="side-title"><i class="bi bi-person-badge-fill fs-4"></i><span>Personal Info</span></div>
-      <ul class="side-list mt-3">
-        <li><i class="bi bi-telephone"></i> +91 9667480693</li>
-        <li><i class="bi bi-envelope"></i> dhruvkapoor200210@gmail.com</li>
-        <li><i class="bi bi-geo-alt"></i> Gurugram, India</li>
-      </ul>
-
-      <div class="side-title"><i class="bi bi-link-45deg fs-4"></i><span>Links</span></div>
-      <ul class="side-list mt-3">
-        <li>GitHub: dhruv-kapoor-dk10</li>
-        <li>Portfolio: dhruvdk10</li>
-      </ul>
-
-      <div class="side-title"><i class="bi bi-translate fs-4"></i><span>Languages</span></div>
-      <ul class="side-list mt-3">
-        <li>English</li>
-        <li>Hindi</li>
-      </ul>
-    </aside>
-
-    <!-- MAIN CONTENT -->
-    <main class="col-12 col-md-8 content">
-      <div class="name">Dhruv Kapoor</div>
-      <div class="role">Web Designer | UX Designer | Front End Designer</div>
-
-      <section>
-        <div class="section-title"><i class="bi bi-person fs-3"></i><span>Professional Summary</span></div>
-        <p class="summary">
-          Creative and detail-oriented Web Designer and Front End Designer with strong foundations in UI/UX principles,
-          responsive design, and modern JavaScript frameworks. Experienced in building user-friendly, accessible, and
-          performance-optimized websites. Skilled in HTML5, CSS3, JavaScript, React, and Bootstrap with working knowledge
-          of MERN stack development. Actively seeking opportunities as a Web Designer, UX Designer, Website Designer, or
-          Front End Designer.
-        </p>
-      </section>
-
-      <section>
-        <div class="section-title"><i class="bi bi-briefcase fs-3"></i><span>Project Experience</span></div>
-
-        <div class="pill">1 Month</div>
-        <div class="details">Football Academy Website — Web Designer | Front End Designer</div>
-        <ul class="ms-2">
-          <li>Designed and developed a responsive multi-page website using HTML5 and CSS3</li>
-          <li>Implemented mobile-first layout and cross-device compatibility</li>
-          <li>Improved navigation with structured content and intuitive UI</li>
-        </ul>
-
-        <div class="pill">20 Days</div>
-        <div class="details">Cartzon — E-Commerce Frontend Website</div>
-        <ul class="ms-2">
-          <li>Designed UI components and responsive grids using Bootstrap</li>
-          <li>Focused on usability, visual hierarchy, and consistency</li>
-        </ul>
-
-        <div class="pill">1 Month</div>
-        <div class="details">vibe. — Entertainment Platform</div>
-        <ul class="ms-2">
-          <li>Built dynamic frontend using React, HTML, CSS, and JavaScript</li>
-          <li>Designed UX flows for login/signup and content browsing</li>
-          <li>Integrated backend authentication with Node.js, Express, MongoDB</li>
-        </ul>
-      </section>
-
-      <section>
-        <div class="section-title"><i class="bi bi-award fs-3"></i><span>Certifications</span></div>
-
-        <div class="pill">Jun 2025 – Aug 2025</div>
-        <div class="details">Web Designing — Croma Campus</div>
-        <ul class="ms-2">
-          <li>HTML5, CSS3, JavaScript, Responsive Design, Bootstrap</li>
-        </ul>
-
-        <div class="pill">Aug 2025 – Dec 2025</div>
-        <div class="details">MERN Stack Development — Croma Campus</div>
-        <ul class="ms-2">
-          <li>MongoDB, Express.js, React.js, Node.js</li>
-          <li>REST APIs, authentication, deployments</li>
-        </ul>
-      </section>
-
-      <section>
-        <div class="section-title"><i class="bi bi-book fs-3"></i><span>Education</span></div>
-
-        <div class="pill">September 2023</div>
-        <div class="details">Bachelor of Business Administration (BBA) — General</div>
-        <ul class="ms-2">
-          <li>Jagannath International Management School, Vasant Kunj, Delhi</li>
-        </ul>
-
-        <div class="pill">March 2020</div>
-        <div class="details">Senior Secondary — Commerce with Mathematics</div>
-        <ul class="ms-2">
-          <li>Salwan Public School, Old Rajinder Nagar, Delhi (CBSE)</li>
-        </ul>
-      </section>
-
-    </main>
-  </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 </html>
